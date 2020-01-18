@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="changewidth()">
+<div >
+<h1 style="font-size:60px; padding-right:20px">Register for Course:</h1>
+<form action="register_for_exam.php" method="post" >
+<fieldset style="width:40%;margin-left:400px;height:0%;" id="fieldset";>
+<legend style="background-color:#00ccff; color:white;font-size:30px; ">Please fill details:</legend>
+<p id="p01" style="font-size: 20px;">
+<b>Father's Name: <br><input type="text" name="fname"   style="width:100%;"><br><br>Choose Course:&nbsp<input type="radio" name="course" value="network">Network Security&nbsp<input type="radio" name="course" value="system">System Security<br><br>
+Choose Batch:&nbsp<input type="radio" name="batch" value="april">April&nbsp<input type="radio" name="batch" value="september">September
+
+</b>
+</p>
+<br><br><br><br><br><br>
+<br><br><br>
+
+<input type="submit" value="SUBMIT" class="loginbutton" >
+
+</form>
+<br>
+<br>
+
+
+
+</fieldset>
+</div>
+
+</body>
+</html>
+<style>
+
+div
+{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.loginbutton
+{
+	background-color:#00ccff;
+	border:none;
+	padding:5px ;
+	color:white;
+	font-size:15px;
+	width:100%;
+}
+
+h1
+{
+	background-color:#00ccff;
+	color:white;
+	padding: 10px 12px;
+	text-align:right;
+}
+
+#p02
+{
+	background-color:black;
+	text-align:center;
+	color:green;
+	font-size:40px;
+}
+
+#fieldset
+{
+	transition: 3s;
+}
+
+</style>
+
+<script>
+
+	function changewidth()
+	{
+		document.getElementById("fieldset").style.height="70%";
+	}
+
+</script>

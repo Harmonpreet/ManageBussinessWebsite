@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="changewidth()">
+<div >
+<h1 style="font-size:60px; padding-right:20px">LOGIN:</h1>
+<form action="login.php" method="post" >
+<fieldset style="width:40%;margin-left:400px;height:0%;" id="fieldset";>
+<legend style="background-color:#00ccff; color:white;font-size:30px; ">ENTER CREDENTIALS :</legend>
+<p id="p01" style="font-size: 20px;">
+<b>EMAIL:<br><input type="text" name="email"   style="width:100%;"><br><br>
+PASSWORD:<br><input type="password" name="password" style="width:100%"></b>
+</p>
+
+<input type="submit" value="LOGIN" class="loginbutton" >
+
+</form>
+<br>
+<br>
+<p align="center"style="color:#66b3ff; font-size:20px;"><b>or connect with<b></p>
+<p align="center" style="cursor: pointer;"><img src="images/google.png" height=50 width=50>&nbsp&nbsp<img src="images/facebook.jpg"  height=50 width=50>&nbsp&nbsp
+<img src="images/linkedin.png"  height=50 width=50>
+</p>
+
+Not a Member yet?<a href="register.html" style="text-decoration:none"> Register here.</a><br><br>
+<a href="#html" style="text-decoration:none">
+Forget Password?</a><br><br>
+</fieldset>
+</div>
+
+</body>
+</html>
+<style>
+
+div
+{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.loginbutton
+{
+	background-color:#00ccff;
+	border:none;
+	padding:5px ;
+	color:white;
+	font-size:15px;
+	width:100%;
+}
+
+h1
+{
+	background-color:#00ccff;
+	color:white;
+	padding: 10px 12px;
+	text-align:right;
+}
+
+#p02
+{
+	background-color:black;
+	text-align:center;
+	color:green;
+	font-size:40px;
+}
+
+#fieldset
+{
+	transition: 3s;
+}
+
+</style>
+
+<script>
+
+	function changewidth()
+	{
+		document.getElementById("fieldset").style.height="70%";
+	}
+
+</script>

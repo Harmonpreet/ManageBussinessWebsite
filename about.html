@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="mysidenav" class="sidenav">
+<span onclick="closenav()" style="cursor:pointer;font-size:30px;color:white" class="closebutton">&times;</span>
+    <h2 style="color:burlywood; margin-left:10px">QUICK NAV:</h2>
+<a href="#mission">OUR MISSION</a>
+<a href="#sponsors">OUR SPONSORS</a>
+<a href="#contribute">CONTRIBUTE</a>
+<a href="#partners">OUR PARTNERS</a>
+</div>
+<span onclick="opennav()" style="cursor:pointer;font-size:30px;">&#9776;</span>
+<div id="main">
+<div id="mission">
+<h1 style="text-align:center; ">OUR MISSION</h1>
+<h3>HACKING PHILOSPHY</h3> 
+We believe everyone should have free access to all information. Hacking should not be a privileged skill - everyone should have the opportunity to learn about computer security in the age of technology. We seek to facilitate a free and open training ground where people can test and expand their skills in a legal and realistic environment.
+
+    <h3>Ethics</h3>
+Considering that several of the hacking challenges are simulated web defacements, the question of the ethics of hacking is repeatedly brought up. We like to consider hacking itself to be a tool, a skill which in itself is neutral, a means without end. It can be used for good (for the benefit of all) or bad (mindless destruction or theft). We do not encourage negative use of the information we provide. We are more concerned with the greater risks of not distributing this information and are ready to accept the consequences.
+
+<h3>    Community</h3>
+Unlike many wargame and security sites, HackThisSite is a community where all users can contribute and participate in the development of the site. We are an open society that encourages active participation, and we have set up a number of ways people can become involved. In addition, we have a very active IRC network, forums, and an open publishing system where people can submit articles and external resources to the site. We are a friendly atmosphere where we help people who ask intelligent questions. Join us and participate in very lively and passionate debates about technology and worldly events. There is no social hierarchy; we are all equal. HTS is what you make of it!
+
+We wish to promote the use of hacking as a tool to fight for social justice causes. Hacking is justified if it is used to combat oppression, censorship or inequality. While we do not encourage or participate in illegal activities, we do want to present hacktivism as a positive alternative to mindless black hat hacking. Gain the skills and join the struggle for freedom!
+</div>
+<br>
+<br>
+<br>
+<div id="sponsors" >
+<h1 style="text-align:center; ">OUR SPONSORS</h1>
+<marquee> 
+<img src="images/googlefull.png">
+<img src="images/amazon.png">
+<img src="images/ibm.png">
+<img src="images/saplab.png">
+<img src="images/mahindra.png">
+</marquee>
+    
+</div>
+</div>
+</body>
+</html>
+<style>
+
+.sidenav
+{
+	height:100%;
+	width:0px;
+	background-color:black;
+	overflow-x:hidden;	
+	position:fixed;	
+	transition:1s;
+	padding-top:30px;
+	
+}
+.sidenav a
+{
+	text-decoration:none;
+	display:block;
+	color:orange;
+	padding:8px 10px;
+	font-size:20px;
+	
+	
+	
+}
+.sidenav a:hover
+{
+    color:floralwhite;
+}
+.sidenav .closebutton
+{
+	margin-left:160px;
+}
+</style>
+<script>
+function opennav()
+{
+document.getElementById("mysidenav").style.width="200px";
+document.getElementById("main").style.padding="0px 0px 0px 220px";
+}
+function closenav()
+{
+document.getElementById("mysidenav").style.width="0px";
+document.getElementById("main").style.padding="0px 0px 0px 0px";
+}
+</script>
