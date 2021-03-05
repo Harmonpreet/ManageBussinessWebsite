@@ -102,7 +102,7 @@ Sometimes, "hacker" is simply used synonymously with "geek": "A true hacker is n
 
 <footer >
 
-Website designed and developed at HHD Co. Inc(All rights Reserved).
+Website designed and developed at Harmonpreet Singh Co. Inc(All rights Reserved).
     
 
 </footer>
